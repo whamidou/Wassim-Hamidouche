@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Wassim
+middle_name:
+last_name: Hamidouche
+email: whamidou@insa-rennes.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -52,9 +52,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+linkedin_username: wassim-hamidouche-6a301022 # your LinkedIn user name
+scholar_userid: ywBnUIAAAAAJ&hl=fr # your Google Scholar ID
+orcid_id: 0000-0002-0143-1756 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -63,7 +63,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/85/8759.html # your DBLP profile url
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -151,15 +151,14 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Hamidouche
+  first_name: [Wassim]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: Bibliography.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -182,7 +181,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
