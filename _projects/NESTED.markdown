@@ -2,7 +2,7 @@
 layout: page
 title: NESTED
 description: New vidEo STandards for Enhanced Delivery 2022-2024
-img: /assets/img/3.jpg
+img: /assets/img/Nested_5G_logo.png
 importance: 2
 category: work
 ---
